@@ -8133,11 +8133,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Dev_Projects\\backend\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Dev_Projects\\backend\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "c:\\Dev_Projects\\backend\\Business\\Business.csproj",
+      "projectPath": "C:\\Dev_Projects\\backend\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\edabu\\.nuget\\packages\\",
-      "outputPath": "c:\\Dev_Projects\\backend\\Business\\obj\\",
+      "outputPath": "C:\\Dev_Projects\\backend\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\edabu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8152,14 +8152,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Dev_Projects\\backend\\Core\\Core.csproj": {
-              "projectPath": "c:\\Dev_Projects\\backend\\Core\\Core.csproj"
+            "C:\\Dev_Projects\\backend\\Core\\Core.csproj": {
+              "projectPath": "C:\\Dev_Projects\\backend\\Core\\Core.csproj"
             },
-            "c:\\Dev_Projects\\backend\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "c:\\Dev_Projects\\backend\\DataAccess\\DataAccess.csproj"
+            "C:\\Dev_Projects\\backend\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Dev_Projects\\backend\\DataAccess\\DataAccess.csproj"
             },
-            "c:\\Dev_Projects\\backend\\Entities\\Entities.csproj": {
-              "projectPath": "c:\\Dev_Projects\\backend\\Entities\\Entities.csproj"
+            "C:\\Dev_Projects\\backend\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Dev_Projects\\backend\\Entities\\Entities.csproj"
             }
           }
         }

@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{9CBC5078-9B5E-4A68-9B60-351555382BA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{1315066F-6663-452D-83CA-5DCE3736DB61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{D19AFE60-114E-4030-BF10-F13594953A08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,9 +38,9 @@ Global
 		{9CBC5078-9B5E-4A68-9B60-351555382BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CBC5078-9B5E-4A68-9B60-351555382BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CBC5078-9B5E-4A68-9B60-351555382BA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1315066F-6663-452D-83CA-5DCE3736DB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1315066F-6663-452D-83CA-5DCE3736DB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1315066F-6663-452D-83CA-5DCE3736DB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1315066F-6663-452D-83CA-5DCE3736DB61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19AFE60-114E-4030-BF10-F13594953A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19AFE60-114E-4030-BF10-F13594953A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19AFE60-114E-4030-BF10-F13594953A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19AFE60-114E-4030-BF10-F13594953A08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

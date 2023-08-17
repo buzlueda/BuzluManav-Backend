@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u2/JY5tgijycnpQwNXVXIOTAfDGe+UwiacrHZUTVqKM4Srw+LrUcvYmCrW59TdU06MnWIeKcBupfCHgKHAtj5A==",
+  "dgSpecHash": "GynuIHn5m/1TO0bpb6ygJ3W7qLkAqWh7hq7uiwGwB99n69O9HyJhR4cqdPxlgPnWaKx9vcO/uI7anYqi61UlFA==",
   "success": true,
-  "projectFilePath": "c:\\Dev_Projects\\backend\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Dev_Projects\\backend\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edabu\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",
     "C:\\Users\\edabu\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
