@@ -1,0 +1,4 @@
+@host=http://localhost:5170/
+
+GET {{host}}api/Products/getall
+Content-Type: application/json
