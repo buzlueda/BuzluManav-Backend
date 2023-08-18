@@ -1,13 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Core.Utilities.IoC
+namespace Core.Utilities.IoC;
+public interface ICoreModule
 {
-    public interface ICoreModule
-    {
-        void Load(IServiceCollection serviceCollection);
-    }
+    void Load(IServiceCollection serviceCollection);
 }

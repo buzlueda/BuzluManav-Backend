@@ -1,30 +1,24 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Business.Abstract;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebAPI.Controllers
+namespace WebAPI.Controllers;
+[Route("api/[controller]")]
+[ApiController]
+public class CategoriesController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class CategoriesController : ControllerBase
+    ICategoryService _categoryService;
+    public CategoriesController(ICategoryService categoryService)
     {
-        ICategoryService _categoryService;
-        public CategoriesController(ICategoryService categoryService)
+        _categoryService = categoryService;
+    }
+    [HttpGet("getall")]
+    public IActionResult GetAll()
+    {
+        var result = _categoryService.GetAll();
+        if (result.Success)
         {
-            _categoryService = categoryService;
+            return Ok(result);
         }
-        [HttpGet("getall")]
-        public IActionResult GetAll()
-        {
-            var result = _categoryService.GetAll();
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            return BadRequest(result);
-        }
+        return BadRequest(result);
     }
 }

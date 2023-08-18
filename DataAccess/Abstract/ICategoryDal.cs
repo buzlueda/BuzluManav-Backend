@@ -1,14 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Core.DataAccess;
 using Entities.Concrete;
 
-namespace DataAccess.Abstract
+namespace DataAccess.Abstract;
+public interface ICategoryDal : IEntityRepository<Category>
 {
-    public interface ICategoryDal : IEntityRepository<Category>
-    {
 
-    }
 }
